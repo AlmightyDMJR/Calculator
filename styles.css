@@ -23,6 +23,7 @@ body {
     margin-top:2rem;
     margin-bottom:2rem ;
     
+    
 }
 input{
     width :320px;
@@ -103,4 +104,10 @@ h1 {
   background: linear-gradient(145deg, #e69854, #eb2121);
   box-shadow: 0 0 2px #00f2fe;
   cursor: pointer;
+}
+@media (max-width: 480px) {
+  .calculator {
+    padding: 15px;
+    max-width: 95%;
+  }
 }
