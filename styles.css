@@ -105,9 +105,3 @@ h1 {
   box-shadow: 0 0 2px #00f2fe;
   cursor: pointer;
 }
-@media (max-width: 480px) {
-  .calculator {
-    padding: 15px;
-    max-width: 95%;
-  }
-}
