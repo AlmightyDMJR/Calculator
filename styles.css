@@ -1,0 +1,106 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;    
+  background: linear-gradient(45deg, black, rgb(70, 67, 67));
+}
+
+.calculator{
+    border : 1px solid #717377 ;
+    padding : 20px;
+    border-radius: 16px;
+    background:transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+    margin-top:2rem;
+    margin-bottom:2rem ;
+    
+}
+input{
+    width :320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84,84,84,0.1);
+    font-size:40px;
+    text-align: right;
+    cursor:pointer;
+}
+
+input::placeholder{
+    color:white;
+}
+button{
+    border:none;
+    width : 60px;
+    height :60px;
+    margin : 10px;
+    border-radius: 50%;
+    background: white;
+    color:black;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+    cursor: pointer;
+    font-weight: 600;
+}
+.equalBtn{
+    background-color: rgb(233, 133, 19);
+}
+.operator{
+    background-color: rgb(164, 75, 75);
+    color: black;
+}
+button:hover {
+  transform: translateY(-2px) scale(1.1);
+  background: linear-gradient(145deg, #94e3e8, #4facfe);
+  box-shadow: 0 0 25px #90a7a9;
+  cursor: pointer;
+}
+.clear{
+    background-color: rgb(12, 244, 4);
+}
+#inputBox{
+    background-color: white;
+    border: black;
+    border-radius: 1rem;
+    
+}
+
+
+.heading {
+  margin-bottom: 1rem; 
+  margin-top: 3rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background: linear-gradient(90deg, #e8ebe7, #e1c56f);
+  color:transparent;
+  -webkit-background-clip: text;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(231, 240, 240, 0.2);
+  padding:15px;
+}
+.heading:hover{
+  transform: translateY(-1px) scale(1.01);
+  background: linear-gradient(145deg, #e69854, #eb2121);
+  box-shadow: 0 0 2px #00f2fe;
+  cursor: pointer;
+}
